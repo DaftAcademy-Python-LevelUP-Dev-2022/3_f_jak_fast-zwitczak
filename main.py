@@ -2,4 +2,4 @@
 
 
 class HerokuApp:
-    app_url = "https://daftcode-w3.herokuapp.com/"  # Fill your heroku app url here
+    app_url = "https://daftcode-w3.herokuapp.com"  # Fill your heroku app url here
