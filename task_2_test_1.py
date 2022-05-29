@@ -15,6 +15,7 @@ class HerokuSetupTest(unittest.TestCase):
         response = requests.post(
             self.app_path, auth=HTTPBasicAuth(username="tester", password="1990-01-01")
         )
+        print(response)
         self.assertEqual(response.status_code, 200)
 
     def test_incorrect_age_401(self):
